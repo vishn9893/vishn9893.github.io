@@ -50,7 +50,7 @@ const CONFIG = {
   //       },
   //     ],
   //   },
-  // },
+  },
   seo: {
     title: 'Vishnudhat Natarajan',
     description: 'Sr. DevOps Engineer | Platform Systems Specialist | Gen AI , Microservices Architecture',
