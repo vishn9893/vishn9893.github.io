@@ -51,13 +51,13 @@ const CONFIG = {
   //     ],
   //   },
   // },
-  // seo: {
-  //   title: 'Portfolio of Ariful Alam',
-  //   description: '',
-  //   imageURL: '',
-  // },
-  // social: {
-  //   linkedin: 'ariful-alam',
+  seo: {
+    title: 'Portfolio of Vishnudhat Natarajan',
+    description: '',
+    imageURL: '',
+  },
+  social: {
+    linkedin: 'vishnudhat',
   //   x: 'arif_szn',
   //   mastodon: 'arifszn@mastodon.social',
   //   researchGate: '',
@@ -75,9 +75,9 @@ const CONFIG = {
   //   skype: '',
   //   telegram: '',
   //   website: 'https://www.arifszn.com',
-  //   phone: '',
-  //   email: 'arifulalamszn@gmail.com',
-  // },
+    phone: '+1635139787',
+    email: 'vishnudhat@gmail.com',
+  },
   resume: {
     fileUrl:
       'https://vishnudhat.tiiny.site', // Empty fileUrl will hide the `Download Resume` button.
