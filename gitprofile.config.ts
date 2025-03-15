@@ -14,18 +14,18 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
-        },
-      },
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
+      // automatic: {
+      //   sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+      //   limit: 8, // How many projects to display.
+      //   exclude: {
+      //     forks: false, // Forked projects will not be displayed if set to true.
+      //     projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+      //   },
+      // },
       manual: {
         // Properties for manually specifying projects
-        projects: ['vishn9893/Bitbucket-RAG'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['vishn9893/Bitbucket-RAG', 'vishn9893/confluence-RAG'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
   //   external: {
@@ -53,7 +53,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Vishnudhat Natarajan',
-    description: 'Sr. DevOps Engineer | Platform Systems Specialist | Gen AI , Microservices Architecture',
+    description: 'Sr. DevOps Engineer | Platform Systems Specialist | Gen AI | Microservices Architecture',
     imageURL: '',
   },
   social: {
