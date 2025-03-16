@@ -53,7 +53,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Vishnudhat Natarajan',
-    description: 'Sr. DevOps Engineer | Platform Systems Specialist | Gen AI | Microservices Architecture',
+    description: 'Sr. DevOps Engineer | Platform Systems Specialist | Gen AI',
     imageURL: '',
   },
   social: {
@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://vishnudhat.tiiny.site', // Empty fileUrl will hide the `Download Resume` button.
+      'https://vishnudhatnatarajan.tiiny.site', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -88,16 +88,21 @@ const CONFIG = {
     'JavaScript',
     'React.js',
     'Node.js',
-    'Vector Databases',
+    'Express.js',
     'MySQL',
     'PostgreSQL',
+    'Bitbucket',
     'Git',
     'Docker',
     'Kubernetes',
+    'Helm',
+    'Kafka',
     'Terraform',
     'Jenkins',
     'ArgoCD',
-    'Cloud Computing (AWS, Azure)',
+    'Prometheus',
+    'Grafana',
+    'Cloud Computing (AWS, Azure, GCP)',
   ],
   experiences: [
     {
@@ -121,12 +126,6 @@ const CONFIG = {
       body: 'Earners of the Azure AI Fundamentals certification have demonstrated foundational knowledge of machine learning (ML) and artificial intelligence (AI) concepts and related Microsoft Azure services.',
       year: 'April 2023',
       link: 'https://www.credly.com/badges/f08986ed-18f9-4750-a07f-9a7d08f103cd/linked_in_profile',
-    },
-    {
-      name: 'Huawei HCIA-Datacom Associate',
-      body: 'The Huawei Certified ICT Associate-Datacom (HCIA-Datacom) course aims to equip learners with the foundational knowledge and skills required to construct and manage small to medium-sized data communication networks.',
-      year: 'July 2022',
-      link: 'https://e.huawei.com/en/talent/#/cert/certificate-verification?CertificateNo=010103901417808842611790466',
     },
     {
       name: 'Site Reliability Engineering: Measuring and Managing Reliability',
@@ -154,7 +153,7 @@ const CONFIG = {
       title: 'Machine Learning for Decentralized and Distributed Intelligent Mesh network in Agritech Sector',
       journalName: 'International Wine Journal',
       authors: 'Vishnudhat Natarajan, Matteo Stoppa',
-      description: 'To understand the winery environment and fermentation especially in wine-making and wine storage. To study the monitoring system with reference to data collected with the monitoring device and perform Time-series Data analysis on the given data to Forecast Predictions and Classify the wooden barrels based on the volume of Evaporation to stably maintain the fermentation environment in the winery area for premium wine-making.',
+      description: 'Abstract: To understand the winery environment and fermentation especially in wine-making and wine storage. To study the monitoring system with reference to data collected with the monitoring device and perform Time-series Data analysis on the given data to Forecast Predictions and Classify the wooden barrels based on the volume of Evaporation to stably maintain the fermentation environment in the winery area for premium wine-making.',
     },
     // {
     //   title: 'Publication Title',
@@ -181,7 +180,7 @@ const CONFIG = {
   //   snippetVersion: 6,
   // },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
